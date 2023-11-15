@@ -135,3 +135,51 @@ body{
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+welcome {
+    display: flex;
+}
+
+.welcome-1 {
+    background-image: url()  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #afafaf;
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #afafaf;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: blueviolet;
+}
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
