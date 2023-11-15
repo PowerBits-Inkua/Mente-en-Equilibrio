@@ -114,3 +114,24 @@ body{
     margin: 25px 0;
     border: 0;
 }
+
+.btn-1:hover {
+    background-color: #3395d6
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3 {
+    font-size: 18px;
+}
+
+.dir p {
+    font-size: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
