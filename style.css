@@ -328,3 +328,83 @@ form{
     color: #FFFFFF;
     font-size: 14px;
 }
+
+textarea {
+    width: 520px !important;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1f1f1f;
+        display: none;
+
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~.navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1 {
+        font-size: 90px;
+    }
+
+    .header-txt p {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .header-dir {
+        flex-direction: column;
+    }
+
+    .dir p {
+        font-size: 18px;
+    }
+
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome-1 {
+        display: none;
+    }
+
+    .welcome-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+}
