@@ -407,4 +407,22 @@ textarea {
         padding: 30px;
         text-align: center;
     }
+
+    .personal{
+        padding: 30px;
+    }
+    .personal-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .personal-1{
+        margin-bottom: 25px;
+    }
+
+    .footer-bg{
+        padding: 30px;
+    }
+    .textarea{
+        width: 250px !important;
+    }
 }
