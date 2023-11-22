@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
 
 /* font-family: 'Bebas Neue', 'cursive'*/
 
@@ -12,8 +14,8 @@
 }
 
 body{
-    font-family: 'Poppins', 'sans-serif';
-    background-color: #AEFFFF;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f9f6f1;
 }
 
 .container {
@@ -22,7 +24,7 @@ body{
 }
 
 .header {
-    background-image: url(images/);
+    background-image: url(images/fondo.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,12 +44,20 @@ body{
     z-index: 1000;
 }
 
+/*
 .logo {
     font-size: 24px;
     color: #CF2d3a;
     font-weight: 800;
     text-transform: uppercase;
 }
+*/
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+    float: left;
+  }
 
 .menu .navbar ul li {
     position: relative;
@@ -57,12 +67,12 @@ body{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #FFFFFF;
+    color: #191559;
     display: block;
 }
 
 .menu .navbar ul li a:hover {
-    color: #CF2d3a;
+    color: #5b5e76;
 }
 
 #menu {
@@ -84,12 +94,13 @@ body{
 }
 
 .header-txt h1, span, h3 {
-    font-size: 110px;
+    margin-top: 160px;
+    font-size: 100px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    color: #CF2d3a;
-    margin-bottom: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #332c27;
+    margin-bottom: 20px;
 }
 
 .header-txt span {
@@ -97,7 +108,7 @@ body{
 }
 
 .header-txt p {
-    color: #afafaf;
+    color: #191559;
     padding: 0 250px;
     margin: 25px 0;
 }
@@ -105,18 +116,18 @@ body{
 .btn-1 {
     display: inline-block;
     padding: 11px 25px;
-    background-color: #d82e37;
+    background-color: #01cab6;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     margin: 25px 0;
     border: 0;
 }
 
 .btn-1:hover {
-    background-color: #3395d6
+    background-color: #11aa9b
 }
 
 .header-dir {
@@ -157,20 +168,20 @@ welcome {
 h2 {
     font-size: 90px;
     line-height: 100px;
-    color: #FFFFFF;
+    color: #eab56f;
     text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
-    color: #afafaf;
+    color: #191559;
     margin: 25px 0;
 }
 
 .b1 {
-    color: blueviolet;
+    color: #332c27;
 }
 
 .services {
@@ -185,8 +196,8 @@ p {
 }
 
 hr{
-    border: 1px solid #CF2d3a;
-    width: 80px;
+    border: 1px solid #332c27;
+    width: 150px;
 }
 
 .services-txt p{
@@ -299,7 +310,7 @@ td{
 }
 
 .footer-bg {
-    background-image: url();
+    background-image: url(images/fondo2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -321,8 +332,8 @@ form{
     margin: 5px;
     padding: 20px 15px;
     width: 250px;
-    background-color: #0E0E0E;
-    border: 1px solid #CF2034;
+    background-color: #c5c1bb60;
+    border: 1px solid #eab56f;
     outline: none;
     border-radius: 10px;
     color: #FFFFFF;
