@@ -196,7 +196,7 @@ h2 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #191559;
     margin: 10px 0;
 }
@@ -315,6 +315,19 @@ td{
     justify-content: space-between;
     margin-bottom: 35px;
 }
+.personal-1 .button {
+    font-size: 15px; /* Ajusta el tamaño del texto del botón */
+    padding: 10px 15px; /* Ajusta el relleno del botón */
+    background-color: #eab56f; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición de color de fondo */
+}
+.personal-1 .button:hover {
+    background-color:  #f7910d/* Cambia el color de fondo al pasar el ratón */
+}
 .personal-1 {
    text-align: center; 
 }
@@ -378,6 +391,7 @@ textarea {
     text-align: center;
     padding: 5px;
     background-color: #11aa9b3b;
+    margin-top: 30px;
 }
 
 svg {
@@ -472,4 +486,5 @@ svg {
     .textarea{
         width: 250px !important;
     }
+    
 }
