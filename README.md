@@ -27,7 +27,6 @@ Estamos comprometidos en hacer que la salud mental y el bienestar sean accesible
 
 | **Lenguajes de Programación**| |
 | ------------- | ------------- |
-|**JavaScript** |  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="33" height="33"/> </a></p>|
 |**HTML**  |  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="javascript" width="35" height="35"/> </a></p>|
 |**CSS**  |  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="javascript" width="35" height="35"/> </a></p>|
 
