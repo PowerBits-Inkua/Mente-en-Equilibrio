@@ -245,6 +245,11 @@ hr{
 .card img{
     width: 80%;
 }
+
+img {
+    border-radius: 10px;
+}
+
 .card h3{
     font-size: 25px;
     color: #332c27;
@@ -376,7 +381,7 @@ form{
     border: 1px solid #eab56f;
     outline: none;
     border-radius: 10px;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 14px;
 }
 
