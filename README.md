@@ -5,6 +5,9 @@
 Nuestro proyecto tiene como objetivo principal proporcionar apoyo y recursos en el ámbito de la salud mental y el bienestar. 
 Vivimos en un mundo donde cada vez más personas buscan ayuda y recursos para cuidar su salud mental, y esta web está pensada para abordar estas necesidades.
 
+Echa un vistazo aquí ​👉​​
+https://powerbits-inkua.github.io/Mente-en-Equilibrio/
+
 ## ▫ Objetivo:
 
 Mente en Equilibrio está destinado a todas las personas que enfrentan desafíos en su salud mental, ya sea que estén lidiando con enfermedades mentales diagnosticadas o simplemente buscando mantener un equilibrio mental y emocional. Queremos brindar acceso a charlas y apoyo a cualquier persona que necesite ayuda en este aspecto como así también generar conciencia sobre la salud mental y el bienestar.
