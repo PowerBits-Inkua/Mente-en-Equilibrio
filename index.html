@@ -207,17 +207,22 @@
 <footer>
     <div class="footer-bg" id="Contac">
         <h2>Reserva una cita</h2>
-        <form >
+        <form action="https://formsubmit.co/powerbitsutn@gmail.com" method="POST">
             <div class="campo-1">
-                <input class="campo" calstype="text" placeholder="Nombre">
-                <input class="campo" calstype="number" placeholder="Telefono">
+                <input class="campo" name="Nombre" type="text" placeholder="Nombre" required>
+                <input class="campo" name="Telefono" type="number" placeholder="Telefono" required>
             </div>
             <div class="campo-1">
-                <input class="campo" calstype="text" placeholder="Dirección">
-                <input class="campo" calstype="email" placeholder="Correo">
+                <input class="campo" name="Direccion" type="text" placeholder="Dirección">
+                <input class="campo" name="Email" type="email" placeholder="Correo" required>
             </div>
-            <textarea class="campo" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <textarea class="campo" name="Mensaje" type="text" cols="30" rows="10" placeholder="Mensaje"></textarea>
             <input type="submit" value="Enviar" class="btn-1">
+
+            <!-- Lo que hacen estas dos lineas de codigo es recargar la pagina una vez que se envia el formulario y no la redireccionar a otra -->
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+
         </form>
     </div>
     <section class="Quienes somos" id="nosotros">
