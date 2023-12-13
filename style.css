@@ -45,15 +45,6 @@ body{
     z-index: 1000;
 }
 
-/*
-.logo {
-    font-size: 24px;
-    color: #CF2d3a;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-*/
-
 .logo img {
     max-width: 200px;
     height: auto;
@@ -261,47 +252,7 @@ img {
     font-size: 16px;
     margin-top: 3px;
 }
-/*
-.prices{
-    display: flex;
-}
-.prices-1{
-    width: 50%;
-    padding: 150px 250px 150px 100px;
-    background-color: #191919;
-}
 
-table {
-    margin: 50px 0;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
-}
-
-tr{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #afafaf;
-    margin-bottom: 20px;
-}
-
-th{
-    color: #FFFFFF;
-    padding-bottom: 15px;
-}
-
-td{
-    color: #CF2d3a;
-}
-
-.prices-2{
-    background-image: url('#');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-*/
 .personal {
     padding: 100px 0;
     text-align: center;
@@ -322,7 +273,7 @@ td{
 }
 .personal-1 .button {
     font-size: 15px; /* Ajusta el tamaño del texto del botón */
-    padding: 10px 15px; /* Ajusta el relleno del botón */
+    padding: 5px 15px; /* Ajusta el relleno del botón */
     background-color: #eab56f; /* Color de fondo */
     color: white; /* Color del texto */
     border: none; /* Sin borde */
@@ -492,4 +443,15 @@ svg {
         width: 250px !important;
     }
     
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+	background: #3a383786;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #332c27;
+	border-radius: 12px;
+	border-right: 20px solid #7c777462;
 }
