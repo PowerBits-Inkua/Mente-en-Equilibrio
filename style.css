@@ -249,9 +249,13 @@ img {
 
 .card a{
     color: #CF2d3a;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 3px;
 }
+.card a:hover{
+    text-decoration: underline;
+}
+
 
 .personal {
     padding: 100px 0;
